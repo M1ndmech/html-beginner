@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+h1 {
+    color: #a80000;
+}
+
+h2 {
+    color: #989000;
+    text-shadow: #222222;
+}
+
+a {
+    color: #01a216;
+}
+
+img {
+    width: 512px;
+    margin-left: 10px;
+}
+
+@font-face {
+	font-family: 'Cabana';
+	src: url('fonts/cabana.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/cabana.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/cabana.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/cabana.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/cabana.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/cabana.svg#cabana') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+p {
+    font-family: 'Cabana', sans-serif;
+    font-stretch: 2rem;
+}
+
+.big_text {
+    font-size: 2rem;
+}
+
+a:hover {
+    box-shadow: inset 200px 0 0 0 #01a216;
+    color: rgb(0, 141, 149)
+}
+
+ul {
+    list-style-type: square;
+}
+
+.content {
+    max-width: 512px;
+    margin:auto
+}
